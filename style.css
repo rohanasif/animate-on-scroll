@@ -61,6 +61,7 @@ nav>img {
 .heading {
     width: 970px;
     margin: 0 auto;
+    padding-top: 200px;
 }
 
 .title {
@@ -72,6 +73,25 @@ nav>img {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.fade {
-    padding-top: 200px;
+.left,
+.right {
+    width: 350px;
+    height: 150px;
+    border: 4px solid white;
+    background: #202746;
+    margin: 50px 162px;
+    text-align: center;
+    color: white;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+div>p {
+    margin-top: 70px;
 }
